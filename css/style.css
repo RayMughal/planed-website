@@ -1,0 +1,441 @@
+@import url(https://fonts.googleapis.com/css?family=Exo+2);
+
+*{
+     margin: 0;
+    padding: 0;
+    font-family: 'Exo 2', sans-serif;    
+}
+.container{
+    margin: 0 auto;
+    width:100%;
+}
+
+.nav{
+    width:100%;
+    height: 1081px;
+    background-image: url(../images/header.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+} 
+
+.nav ul{
+    float: left;
+    list-style: none;
+    margin-left:394px;
+}
+
+.nav ul li{
+    display: inline-block;
+    margin-top: 15px;    
+}
+
+.nav ul li a{
+    
+    text-transform: uppercase;
+    padding: 21px;
+    font-size: 21px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.nav ul li a.active{
+    background-color:rgba(34, 34, 34, 0.35);
+    padding: 3px 6px;
+    border-radius: 5px;
+}
+
+.nav ul li a:hover{
+    background-color:rgba(34, 34, 34, 0.35);
+    padding: 3px 6px;
+    border-radius: 5px;
+}
+
+/*Search Icon */
+#searchicon{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    float:left;
+}
+input {
+	outline: none;
+}
+input[type=search] {
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	font-family: inherit;
+	font-size: 100%;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+	display: none; 
+}
+input[type=search] {
+	background: #ededed url(http://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+	border: solid 1px #ccc;
+	padding: 9px 10px 9px 32px;
+	width: 55px;
+	-webkit-border-radius: 10em;
+	-moz-border-radius: 10em;
+	border-radius: 10em;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s;
+}
+input[type=search]:focus {
+	width: 130px;
+	background-color: #fff;
+	border-color: #66CC75;
+	
+	-webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	box-shadow: 0 0 5px rgba(109,207,246,.5);
+}
+input:-moz-placeholder {
+	color: #999;
+}
+input::-webkit-input-placeholder {
+	color: #999;
+}
+#searchicon input[type=search] {
+	width: 15px;
+	padding-left: 10px;
+	color: transparent;
+	cursor: pointer;
+}
+#searchicon input[type=search]:hover {
+	background-color: #fff;
+}
+#searchicon input[type=search]:focus {
+	width: 130px;
+	padding-left: 32px;
+	color: #000;
+	background-color: #fff;
+	cursor: auto;
+}
+#searchicon input:-moz-placeholder {
+	color: transparent;
+}
+#searchicon input::-webkit-input-placeholder {
+	color: transparent;
+}
+/* Search Icon's Code ends here */
+.nav .divider{
+    margin-left: 344px;
+}
+.nav .info{
+    margin-top: 0px;
+    margin-right: 210px;
+    float: right;
+    color:#ffffff;
+}
+
+.logo img{
+    margin-left:532px;
+    width: 257px;
+}
+.logo .smile{
+    margin-top: 0px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 72px;
+    margin-left: 430px;
+    margin-bottom: 70px;
+    text-transform: uppercase;
+    
+}
+.logo .smile span{
+     color: #87d37c;
+}
+.logo .button {
+    color:#ffffff;
+    background-color:#87d37c;
+    padding:10px 30px;
+    border-radius: 5px;
+    margin-left: 600px;
+    text-decoration: none;
+}
+.about{
+  z-index: 9999;
+    background-color: #212120;
+    width:100%;
+    height: 70px;
+    
+}
+.about ul{
+    
+    word-spacing: 20px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    margin-left: 386px;
+    margin-top: 0px;
+    list-style: none;
+}
+.about ul li{
+    margin-top: 20px;
+    display: inline-block
+}
+
+.about ul li a{
+    font-size: 21px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #ffffff;
+    font: 300 21px Exo2.0;
+    
+}
+.about img{
+    float:left;
+    margin-left: 350px;
+    padding-top: 9px;
+    
+}
+
+.about ul li a.active{
+    background-color:#87d37c;
+    padding: 2px 4px;
+    border-radius: 3px;    
+}
+
+.about ul li a:hover{
+   background-color:#87d37c;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+.about .aboutSearch{
+    float:right;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+.workInfo{
+    margin:0 auto;
+}
+
+.bootstrap{
+    float: left;
+    width: 200px;
+    margin-left: 300px;
+    margin-top: 126px;
+    height: auto;
+}    
+.bootstrap img{
+    margin-left: 20px;
+}
+.bootstrap .boot{
+    text-align: center;
+    color: #87d37c;
+    font: 500 30px Exo2.0;
+}
+.bootstrap p{
+    text-align:justify;
+}
+
+.design{
+     float: left;
+    
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 126px;
+    height: auto;
+}
+.design img{
+margin-left: 20px;
+}
+.design .flat{
+     text-align: center;
+    color: #87d37c;
+    font: 500 30px Exo2.0;
+}
+.design .designPara{
+     text-align:justify;
+}
+
+.psd{
+    float: left;
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 126px;
+    height: auto;
+}
+.psd img{
+margin-left: 20px;
+}
+.psd .psdHead{
+     text-align: center;
+    color: #87d37c;
+    font: 500 30px Exo2.0;
+}
+.psd .psdPara{
+     text-align:justify;
+}
+
+.custom{
+    clear:both;
+     float: left;
+    width: 200px;
+    margin-left: 300px;
+    height: auto;
+}
+.custom img{
+    margin-left: 20px;
+    
+}
+.custom .customHead{
+     text-align: center;
+    color: #87d37c;
+    font: 500 30px Exo2.0;
+}
+.custom .customPara{
+    text-align:justify;
+}
+.font{
+     float: left;
+    width: 200px;
+    margin-left: 50px;
+    height: auto;
+}
+.font img{
+    margin-left: 20px;
+    
+}
+.font .fontHead{
+     text-align: center;
+    color: #87d37c;
+    font: 500 30px Exo2.0;
+}
+.font .fontPara{
+    text-align:justify;
+}
+.uni{
+    
+     float: left;
+    width: 200px;
+    margin-left: 50px;
+    height: auto;
+}
+.uni img{
+    margin-left: 20px;
+    
+}
+.uni .uniHead{
+     text-align: center;
+    color: #87d37c;
+    font: 500 30px Exo2.0;
+}
+.uni .uniPara{
+    text-align:justify;
+}
+
+.gal{
+    
+    clear: both;
+    margin-top: 800px;
+    background-image: url(images/gallerybg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: auto;
+}
+.gal p{
+    padding-top: 20px;
+    text-align: center;
+    color: #6fbe87;
+    font-weight: 500;
+    font-family: Exo2.0;
+    font-size: 48px;
+}
+.gal figure{
+    margin-top: 30px;
+    text-align: center;
+}
+.gal figure img{
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.gal .part{
+    width:100%;
+    height:auto;
+}
+.review{
+    
+    background-color: #87d37c;
+    background-attachment: fixed;
+    width:100%;
+    height:460px;
+}
+.review h1{
+    text-transform: capitalize;
+    padding-top: 20px;
+     color:#ffffff;
+    text-align: center;
+}
+
+.review img{
+    float: left;
+    margin-left: 260px;
+    margin-top: 100px;
+}
+.review .alice{
+    width:600px;
+    height:300px;
+    float: left;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+.review .alice .aHead{
+    float: left;
+    margin-bottom: 30px;
+}
+.review .alice .aPara{
+    font-weight: 500;
+    color: #fefefe;
+    font-size: 20px;
+    line-height: 25px;
+    float: left;
+    text-align: justify;
+}
+.contact{
+    clear: both;
+    background:linear-gradient( rgba(0, 0, 0, 0.9), rgba(2, 9, 9, 0.8) ),
+                url('../images/ourcontact.png');
+   background-attachment: fixed;
+    background-repeat: no-repeat;
+    width:100%;
+    height: 700;
+}
+.contact .conHead{
+    padding-top: 70px; 
+    color:#87d37c;
+}
+.contact form{
+    margin-top: 40px;
+    text-align: center;
+}
+.contact input,textarea{
+    background: rgba(70, 72, 82, 0.7);
+    border-radius: 5px;
+     border: 3px dotted #87d37c;
+    margin: 0 3px 15px 0;
+    padding: 7px;
+}
+.contact button{ 
+    margin-left: 670px;
+    text-transform: uppercase;
+    color:white;
+    background-color: #87d37c;
+    padding: 10 30px;
+    border-radius: 6px;
+    border:none;
+}
+.review .ray{
+    border-radius: 4px;
+    padding: 20px;
+    background:#87d37c;
+    clear: both;
+}
+.review .ray p{
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+    font-size: 24px;
+}
